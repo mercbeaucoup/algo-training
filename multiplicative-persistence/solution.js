@@ -49,15 +49,15 @@ const multiPers = (num) => {
 
   while (currNum > 9) {
     counter++;
-    currNum = String(currNum)
-      .split("")
+    currNum = String(currNum) --> '246'
+      .split("") --> ['2', '4', '6']
       .reduce((accumulator, currentValue) => accumulator * currentValue, 1);
   }
   return counter;
 };
 
 console.log(multiPers(24)); //1
-console.log(multiPers(9019823109238192938)); //1
+console.log(multiPers(901982319238192938)); //1
 console.log(multiPers(9111111111111111111111111111111111111)); //1
 console.log(multiPers(456)); //2
 console.log(multiPers(39)); //3

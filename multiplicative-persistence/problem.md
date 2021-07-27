@@ -12,7 +12,7 @@ EXAMPLES:
 1: 6 x 7 x 8 x 9 = 3024
 2: 3 x 0 x 2 x 4 = 0
 
-7878 returns
+7878 returns 4
 1: 7 x 8 x 7 x 8 = 3136
 2: 3 x 1 x 3 x 6 = 54
 3: 5 x 4 = 20
